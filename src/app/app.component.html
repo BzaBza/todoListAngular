@@ -1,9 +1,11 @@
-<div>
-    <app-form
-      [_usage]="'list'"
-      (_submit)="createList($event)"
-    ></app-form>
-    <app-lists
-    [_lists]="lists"
-    ></app-lists>
+<div class="app-wrap">
+    <div>
+        <app-form
+                [_usage]="'list'"
+                (_submit)="createList($event)"
+        ></app-form>
+        <app-lists
+                [_lists]="lists"
+        ></app-lists>
+    </div>
 </div>

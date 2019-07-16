@@ -11,3 +11,6 @@
   border: 1px dotted rgba(207, 227, 191, 1);
   color: rgba(7, 8, 5, 1);
 }
+button:focus {
+  outline:none;
+}
